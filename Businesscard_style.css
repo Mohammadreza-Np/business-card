@@ -1,0 +1,36 @@
+body{
+    margin-top: 200px;
+    font-family:'Times New Roman', Times, serif;
+    background: #dad7cd;
+}
+.mypic{
+    width: 150px;
+
+}
+.card{
+    width: 600px;
+    margin: 0 auto;
+    background: #a3b18a;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 10px solid #3a5a40;
+    border-top: 10px solid #3a5a40;
+    border-radius: 5px;
+}
+.italic{
+    font-style: italic;
+    text-shadow: 2px 2px 5px #344e41;
+}
+a:link{
+    color: darkgreen;
+}
+a:visited{
+    color: darkgreen;
+}
+a:hover {
+    color: red;
+    font-size: 120%;
+}
